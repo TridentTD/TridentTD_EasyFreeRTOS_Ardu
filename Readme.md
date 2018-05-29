@@ -2,7 +2,8 @@ TridentTD_EasyFreeRTOS_Ardu Library
 ===
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-ไลบรารี่สำหรับ เขียนแบบ Multitasking แบบ TridentTD บนเพรตฟอร์ม Arduino อาทิ Arduino UNO , Arduino Mega เป็นต้น
+ไลบรารี่สำหรับ เขียนแบบ Multitasking แบบ TridentTD บนเพรตฟอร์ม Arduino  
+อาทิ Arduino UNO , Arduino Mega เป็นต้น
 
 <p align="center">
   <img src="Picture.png" alt="image"/>
