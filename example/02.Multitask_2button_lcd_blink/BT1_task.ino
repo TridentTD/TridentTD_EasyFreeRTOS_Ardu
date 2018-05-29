@@ -15,7 +15,7 @@ void BT1_func(void*) {    // void ใช้พิมพ์เล็ก
   }
   VOID LOOP(){    // VOID LOOP ใน task ใช้พิมพ์ใหญ่
     if( digitalRead (BT1) == HIGH ){
-      blink_type = 0;
+      blink_type = 0;  // blink_type เป็นตัวแปรที่ใช้ share ระหว่าง task
       Blink_task.start(Blink_func);
     }
   }
