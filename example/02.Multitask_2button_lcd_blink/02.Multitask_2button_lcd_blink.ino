@@ -14,7 +14,7 @@ void setup() {  // setup หลัก ตัวพิมพ์เล็ก
   BT1_task.start(BT1_func,NULL,56);     // task สำหรับ จัดการรับค่ากดปุ่ม แรก
   BT2_task.start(BT2_func,NULL,56);     // task สำหรับ จัดการรับค่ากดปุ่ม สอง
   Blink_task.start(Blink_func,NULL,48); // task สำหรับ จัดการ ไฟกระพริบ
-  LCD_task.start(LCD_func,NULL,112);     // task สำหรับ จัดการ หน้าจอ LCD
+  LCD_task.start(LCD_func,NULL,128);     // task สำหรับ จัดการ หน้าจอ LCD
 }
 
 void loop() {}  // loop() หลักตัวพิมพ์เล็ก ห้ามใช้ แต่ให้มีไว้
