@@ -54,7 +54,7 @@ TridentTD_EasyFreeRTOS_Ardu Library
      task1.resume();
 ```
 
-### การจูนพื้นที่เม็มโมรี่สำหรับ task นึงๆ ใน Arduino
+### การจูนพื้นที่เม็มโมรี่สำหรับ task นึงๆ ใน Arduino UNO
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 เนื่องจาก Arduino Uno เป็น MCU ขนาด 8bit มีพื้นที่เม็มโมรี่ในการทำงานที่มีขนาดเล็ก   
 บางคราวเราจึงมีความจำเป็นต้องมีการปรับจูนพื้นที่เม็มสำหรับ task นึงๆให้เหมาะสม  
