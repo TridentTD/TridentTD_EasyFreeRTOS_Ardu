@@ -1,8 +1,7 @@
 #include <TridentTD_EasyFreeRTOS_Ardu.h>
 
-EasyFreeRTOS_Ardu task1, task2;  // สร้าง task กี่ตัวก็ใส่ไป
-
-void myblink(void*), myprint(void*); //ชื่อฟังกชั่นที่ taskจะเรียกทำงาน
+TridentOS   task1, task2;            // ประกาศตัวแปร task
+void myblink(void*), myprint(void*); // ฟังกชั่นที่ task จะเรียกทำงาน
 
 //----พื้นที่ส่วนนี้สำหรับประกาศตัวแปรที่ใช้แชร์ข้อมูลกันระหว่าง task ------
 
@@ -15,3 +14,4 @@ void setup() {
 }
 
 void loop() {}                // ไม่ต้องใช้อีกต่อไปแต่มีไว้
+
