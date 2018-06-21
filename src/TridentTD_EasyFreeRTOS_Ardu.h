@@ -26,6 +26,16 @@
 #define LOOP()     for(;;)
 #endif
 
+extern portMUX_TYPE mux;
+
+#ifndef NO_INTERRUPTS
+#define NO_INTERRUPTS()     taskENTER_CRITICAL_ISR( &mux )
+#endif
+
+#ifndef INTERRUPTS
+#define INTERRUPTS()        taskEXIT_CRITICAL_ISR( &mux )
+#endif
+
 
 class EasyFreeRTOS_Ardu {
 public:
