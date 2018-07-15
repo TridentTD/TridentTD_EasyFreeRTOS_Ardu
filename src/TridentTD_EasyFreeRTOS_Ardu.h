@@ -26,6 +26,7 @@
 #define LOOP()     for(;;)
 #endif
 
+/*
 extern portMUX_TYPE mux;
 
 #ifndef NO_INTERRUPTS
@@ -35,7 +36,7 @@ extern portMUX_TYPE mux;
 #ifndef INTERRUPTS
 #define INTERRUPTS()        taskEXIT_CRITICAL_ISR( &mux )
 #endif
-
+*/
 
 class EasyFreeRTOS_Ardu {
 public:
